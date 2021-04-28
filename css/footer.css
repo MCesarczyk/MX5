@@ -1,0 +1,51 @@
+/* footer.css */
+
+.footer {
+  margin: 30px 0px;
+}
+
+.footer__annotation {
+  text-align: right;
+}
+
+.footer__linkContainer {
+  text-align: left;
+}
+
+.footer__link {
+  color: black;
+}
+
+.footer__linkFeature {
+  color: orangered;
+}
+
+.footer__navigationLink {
+  text-decoration: none;
+  color: #8b0000;
+  background-color: #b0c4de;
+  border-radius: 20px;
+  padding: 10px 25px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.footer__navigationLink:hover {
+  text-decoration: none;
+  color: crimson;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+
+.footer__navigationLink:active {
+  text-decoration: none;
+  color: orangered;
+  background-color: darkgray;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+
+.footer__navigationLink:focus {
+  outline: 1px solid currentColor;
+}

@@ -1,0 +1,11 @@
+/* list.css */
+
+.list {
+    padding-left: 30px;
+    list-style-position: outside;
+    margin-bottom: 30px;
+  }
+  
+  .list__item {
+    margin: 5px 0;
+  }

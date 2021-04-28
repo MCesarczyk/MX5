@@ -1,0 +1,50 @@
+/* table.css */
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    font-size: 14px;
+  }
+  
+  .table__caption {
+    text-align: right;
+    caption-side: bottom;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .table__row:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .table__row:hover {
+    background-color: #bbb;
+  }
+  
+  .table__cell {
+    border: 1px solid #8b0000;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .table__header {
+    font-weight: normal;
+    background-color: #bbb;
+  }
+  
+  .table__header:hover {
+    font-weight: normal;
+    background-color: #ddd;
+  }
+  
+  .table__header--firstRow {
+    padding: 25px 20px 10px 20px;
+  }
+  
+  .table__header--divider {
+    font-weight: normal;
+    background-color: #fff;
+    padding: 4px 20px;
+  }

@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 1000px;
+  background-color: #ddd;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+}

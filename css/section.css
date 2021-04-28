@@ -1,0 +1,64 @@
+/* section.css */
+
+.section__subHeader {
+    color: #8b0000;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+    padding: 2px 20px;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .section__image {
+    width: 100%;
+  }
+  
+  .section__paragraph {
+    padding: 0 15px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  .section__tableContainer {
+    overflow-x: auto;
+    width: 96%;
+    margin: 0 auto;
+  }
+  
+  .section__buttonContainer {
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .section__buttonInfo {
+    background-color: lightgrey;
+    padding: 3px 30px;
+    border-radius: 12px;
+  }
+  
+  .section__buttonInfo:focus {
+    outline: 1px solid currentColor;
+  }
+  
+  .section_unfold {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .section__hidden {
+    display: none;
+  }
+  
+  .section__link {
+    color: #8b0000;
+    text-decoration: none;
+  }
+  
+  .section__link:hover {
+    color: #dc143c;
+    border-bottom: 2px solid;
+  }
+  
+  .section__link:focus {
+    outline: 1px solid currentColor;
+  }
