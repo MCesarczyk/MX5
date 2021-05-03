@@ -4,6 +4,7 @@
   };
 
   const buttonOk = document.querySelector(".js-header__button");
+  const buttonInfo = document.querySelector(".js-section__buttonInfo");
 
   const hideNotification = () => {
     const notification = document.querySelector(".js-header__notification");
@@ -22,7 +23,6 @@
   };
 
   const init = () => {
-    const buttonInfo = document.querySelector(".js-section__buttonInfo");
     buttonOk.addEventListener("click", hideNotification);
     buttonInfo.addEventListener("click", hideFoldedSection);
   };
