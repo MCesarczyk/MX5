@@ -21,3 +21,5 @@ buttonInfo.addEventListener("click", () => {
     buttonInfo.innerText = "Pokaż";
   }
 });
+
+welcome();
