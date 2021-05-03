@@ -11,23 +11,22 @@
     buttonOk.remove();
   };
 
-  const buttonInfo = document.querySelector(".section__buttonInfo");
-  const infoUnfold = document.querySelector(".section__unfold");
-
-  buttonInfo.addEventListener("click", () => {
+  const hideFoldedSection = () => {
+    const infoUnfold = document.querySelector(".js-section__foldUnfold");
     infoUnfold.classList.toggle("section__hidden");
     if (buttonInfo.innerText === "Pokaż") {
       buttonInfo.innerText = "Ukryj";
     } else {
       buttonInfo.innerText = "Pokaż";
     }
-  });
+  };
 
   const init = () => {
+    const buttonInfo = document.querySelector(".js-section__buttonInfo");
     buttonOk.addEventListener("click", hideNotification);
+    buttonInfo.addEventListener("click", hideFoldedSection);
   };
 
   welcome();
   init();
-
 }
