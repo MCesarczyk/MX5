@@ -15,11 +15,7 @@
   const hideFoldedSection = () => {
     const infoUnfold = document.querySelector(".js-section__foldUnfold");
     infoUnfold.classList.toggle("section__hidden");
-    if (buttonInfo.innerText === "Pokaż") {
-      buttonInfo.innerText = "Ukryj";
-    } else {
-      buttonInfo.innerText = "Pokaż";
-    }
+    buttonInfo.innerText = buttonInfo.innerText === "Pokaż" ? "Ukryj" : "Pokaż";
   };
 
   const init = () => {
