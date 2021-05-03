@@ -1,4 +1,6 @@
-console.log("Dzień dobry! Zastałem Jolkę?");
+const welcome = () => {
+  console.log("Hello programmer!");
+};
 
 let buttonOk = document.querySelector(".header__button");
 let notification = document.querySelector(".header__notification");
