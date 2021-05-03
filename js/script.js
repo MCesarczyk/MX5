@@ -2,18 +2,18 @@
   const welcome = () => {
     console.log("Hello programmer!");
   };
-  
-  let buttonOk = document.querySelector(".header__button");
-  let notification = document.querySelector(".header__notification");
-  
-  buttonOk.addEventListener("click", () => {
+
+  const buttonOk = document.querySelector(".js-header__button");
+
+  const hideNotification = () => {
+    const notification = document.querySelector(".js-header__notification");
     notification.remove();
     buttonOk.remove();
-  });
-  
-  let buttonInfo = document.querySelector(".section__buttonInfo");
-  let infoUnfold = document.querySelector(".section__unfold");
-  
+  };
+
+  const buttonInfo = document.querySelector(".section__buttonInfo");
+  const infoUnfold = document.querySelector(".section__unfold");
+
   buttonInfo.addEventListener("click", () => {
     infoUnfold.classList.toggle("section__hidden");
     if (buttonInfo.innerText === "Pokaż") {
@@ -22,7 +22,12 @@
       buttonInfo.innerText = "Pokaż";
     }
   });
-  
+
+  const init = () => {
+    buttonOk.addEventListener("click", hideNotification);
+  };
+
   welcome();
-  
+  init();
+
 }
