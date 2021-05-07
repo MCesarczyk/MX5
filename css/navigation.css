@@ -1,36 +1,42 @@
 /* navigation.css */
 
 .navigation {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .navigation__link {
-    text-decoration: none;
-    color: #8b0000;
-    background-color: #b0c4de;
-    border-radius: 20px;
-    padding: 10px 25px;
-    display: inline-block;
-    margin: 5px;
-  }
-  
-  .navigation__link:hover {
-    text-decoration: none;
-    color: crimson;
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 10px 25px;
-  }
-  
-  .navigation__link:active {
-    text-decoration: none;
-    color: orangered;
-    background-color: darkgray;
-    border-radius: 20px;
-    padding: 10px 25px;
-  }
-  
-  .navigation__link:focus {
-    outline: 1px solid currentColor;
-  }
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #8b0000;
+  background-color: #b0c4de;
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin: 5px;
+}
+
+.navigation__link:hover {
+  text-decoration: none;
+  color: crimson;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+
+.navigation__link:active {
+  text-decoration: none;
+  color: orangered;
+  background-color: darkgray;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+
+.navigation__link:focus {
+  outline: 1px solid currentColor;
+}
+
+.navigation__linkContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
