@@ -5,6 +5,13 @@
   margin-bottom: 20px;
 }
 
+.navigation__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .navigation__link {
   text-decoration: none;
   color: #8b0000;
@@ -22,21 +29,14 @@
   padding: 10px 25px;
 }
 
+.navigation__link:focus {
+  outline: 1px solid currentColor;
+}
+
 .navigation__link:active {
   text-decoration: none;
   color: orangered;
   background-color: darkgray;
   border-radius: 20px;
   padding: 10px 25px;
-}
-
-.navigation__link:focus {
-  outline: 1px solid currentColor;
-}
-
-.navigation__linkContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
