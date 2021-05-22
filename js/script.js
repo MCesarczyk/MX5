@@ -10,7 +10,7 @@
   const hideNotification = () => {
     const notification = document.querySelector(".js-header__notification");
     notification.remove();
-    buttonOk.remove();
+    notificationButton.remove();
   };
 
   const hideFoldedSection = () => {
@@ -22,7 +22,7 @@
   const init = () => {
     welcome();
     notificationButton.addEventListener("click", hideNotification);
-    buttonInfo.addEventListener("click", hideFoldedSection);
+    infoButton.addEventListener("click", hideFoldedSection);
   };
 
   init();

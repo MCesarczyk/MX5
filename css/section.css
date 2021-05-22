@@ -25,12 +25,7 @@
   margin: 0 auto;
 }
 
-/* .section__buttonContainer {
-  text-align: center;
-  margin: 5px;
-} */
-
-.section__buttonInfo {
+.section__infoButton {
   display: block;
   background-color: lightgrey;
   padding: 3px 30px;
@@ -38,7 +33,7 @@
   margin: 5px auto;
 }
 
-.section__buttonInfo:focus {
+.section__infoButton:focus {
   outline: 1px solid currentColor;
 }
 
