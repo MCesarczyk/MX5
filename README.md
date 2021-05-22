@@ -2,7 +2,7 @@
 
 ## demo
 
-https://mcesarczyk.github.io/juaristi/  
+https://mcesarczyk.github.io/MX5/  
 
 ## description
 
