@@ -27,11 +27,12 @@ Page contains:
 ## more info
 
 If You're interested in more informations about such CNC machines visit
-https://juaristi.com website (or similiar)
+https://juaristi.com website (or similiar)  
 
-You can also see such machines in action on Youtube:
+You can also see such machines in action on Youtube:  
 https://www.youtube.com/results?search_query=juaristi+mx5
 
 ## contact
 
-michal.cesarczyk@gmail.com">michal.cesarczyk@gmail.com
+mail:
+michal.cesarczyk@gmail.com
