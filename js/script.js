@@ -3,8 +3,8 @@
     console.log("Hello programmer!");
   };
 
-  const buttonOk = document.querySelector(".js-buttonOk");
-  const buttonInfo = document.querySelector(".js-buttonInfo");
+  const notificationButton = document.querySelector(".js-notificationButton");
+  const infoButton = document.querySelector(".js-infoButton");
 
 
   const hideNotification = () => {
@@ -16,14 +16,14 @@
   const hideFoldedSection = () => {
     const infoUnfold = document.querySelector(".js-section__foldUnfold");
     infoUnfold.classList.toggle("section__hidden");
-    buttonInfo.innerText = buttonInfo.innerText === "Pokaż" ? "Ukryj" : "Pokaż";
+    infoButton.innerText = infoButton.innerText === "Pokaż" ? "Ukryj" : "Pokaż";
   };
 
   const init = () => {
-    buttonOk.addEventListener("click", hideNotification);
+    welcome();
+    notificationButton.addEventListener("click", hideNotification);
     buttonInfo.addEventListener("click", hideFoldedSection);
   };
 
-  welcome();
   init();
 }
