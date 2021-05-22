@@ -36,3 +36,5 @@ https://www.youtube.com/results?search_query=juaristi+mx5
 
 mail:
 [michal.cesarczyk@gmail.com](mailto:michal.cesarczyk@gmail.com)
+
+![juaristi boring-milling machine](/images/juaristi-image.jpg)
